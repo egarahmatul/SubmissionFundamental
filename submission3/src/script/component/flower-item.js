@@ -47,10 +47,11 @@ class FlowerItem extends HTMLElement {
         }
       </style>
       
-      <img class="fan-art-flower" src="${this._flower.strFlowerBadge}" alt="Fan Art">
+      <img class="fan-art-flower" src="${this._flower.default_image}" >
       <div class="flower-info">
-        <h2>${this._flower.strFlower}</h2>
-        <p>${this._flower.strDescriptionEN}</p>
+        <h2>${this._flower.common_name}</h2>
+        <p>Other Name : ${this._flower.other_name}</p>
+        <p>Sunlight   : ${this._flower.sunlight}</p>
       </div>
     `;
   }

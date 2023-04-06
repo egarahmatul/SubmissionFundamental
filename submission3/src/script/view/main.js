@@ -16,7 +16,7 @@ const main = () => {
   };
 
   const renderResult = results => {
-    clubListElement.flowers = results;
+    flowerListElement.flowers = results;
   };
 
   const fallbackResult = message => {

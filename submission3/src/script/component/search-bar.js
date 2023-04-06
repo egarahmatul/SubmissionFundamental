@@ -30,7 +30,7 @@ class SearchBar extends HTMLElement {
           display: flex;
           position: sticky;
           top: 10px;
-          background-color: #FFACAC;
+          background-color: #FFD4D4;
         }
         .search-container > input {
           width: 75%;
@@ -47,7 +47,7 @@ class SearchBar extends HTMLElement {
           font-weight: bold;
         }
         .search-container >  input::placeholder {
-          color: #FFB4B4;
+          // color: #FFB4B4;
           font-weight: normal;
         }
         .search-container > button {
@@ -55,8 +55,9 @@ class SearchBar extends HTMLElement {
           cursor: pointer;
           margin-left: auto;
           padding: 16px;
-          background-color: #E8A0BF;
+          background-color: #FFB4B4;
           color: white;
+          font-weight: bold;
           border: 0;
           text-transform: uppercase;
         }
@@ -76,7 +77,7 @@ class SearchBar extends HTMLElement {
       </style>
       
       <div id="search-container" class="search-container">
-        <input placeholder="Find Your Flower" id="searchElement" type="search">
+        <input placeholder="Find Your Flower (in english)" id="searchElement" type="search">
         <button id="searchButtonElement" type="submit">Search</button>
       </div>
     `;
